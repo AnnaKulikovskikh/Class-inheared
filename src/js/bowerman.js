@@ -1,4 +1,5 @@
-import Character from '/character';
+import Character from './character';
+
 export default class Bowerman extends Character {
   constructor(...params) {
     super(...params);
@@ -7,4 +8,3 @@ export default class Bowerman extends Character {
     this.defend = 25;
   }
 }
-  

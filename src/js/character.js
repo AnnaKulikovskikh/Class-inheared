@@ -1,4 +1,3 @@
-// TODO: write your code here
 export default class Character {
   constructor(name, type, health, level, attack, defend) {
     if (name.length > 2 && name.length < 11 && typeof name == 'string') {
@@ -10,6 +9,6 @@ export default class Character {
     this.health = 100;
     this.level = 1;
     this.attack = attack;
-    this.defend - defend;
-  }    
+    this.defend = defend;
+  }
 }
